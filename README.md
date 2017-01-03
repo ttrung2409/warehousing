@@ -1,3 +1,7 @@
+=============
+Warehousing
+=============
+
 An application simulates some of the warehouse management activities such as product management, stock receiving, cycle count...
 
 It is built as an single-page web app using Angular on client side, and Web API, Entity Framework on server side.
