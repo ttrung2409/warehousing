@@ -6,8 +6,8 @@ How to run:
 Prerequisite: .NET Framework 4.5 or higher, MSSQL, Visual Studio
 
 1. Create Warehousing database then run Warehousing.sql to create its content
-2. Amend the connection string in web.config and build the source
-3. Run the project
+2. Build the source
+3. Amend the connection string in web.config and run the project
 
 
 
