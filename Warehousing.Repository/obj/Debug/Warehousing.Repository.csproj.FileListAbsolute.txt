@@ -1,0 +1,24 @@
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\obj\Debug\Warehousing.Repository.csprojResolveAssemblyReference.cache
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Debug\Warehousing.Repository.dll.config
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Debug\Warehousing.Repository.dll
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Debug\Warehousing.Repository.pdb
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Debug\AutoMapper.dll
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Debug\EntityFramework.dll
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Debug\AutoMapper.xml
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Debug\EntityFramework.xml
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\obj\Debug\Warehousing.Repository.dll
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\obj\Debug\Warehousing.Repository.pdb
+D:\Porfolio\Warehousing\Warehousing.Repository\bin\Debug\Warehousing.Repository.dll.config
+D:\Porfolio\Warehousing\Warehousing.Repository\bin\Debug\Warehousing.Repository.dll
+D:\Porfolio\Warehousing\Warehousing.Repository\bin\Debug\Warehousing.Repository.pdb
+D:\Porfolio\Warehousing\Warehousing.Repository\bin\Debug\AutoMapper.dll
+D:\Porfolio\Warehousing\Warehousing.Repository\bin\Debug\EntityFramework.dll
+D:\Porfolio\Warehousing\Warehousing.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Porfolio\Warehousing\Warehousing.Repository\bin\Debug\AutoMapper.xml
+D:\Porfolio\Warehousing\Warehousing.Repository\bin\Debug\EntityFramework.xml
+D:\Porfolio\Warehousing\Warehousing.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Porfolio\Warehousing\Warehousing.Repository\obj\Debug\Warehousing.Repository.csprojResolveAssemblyReference.cache
+D:\Porfolio\Warehousing\Warehousing.Repository\obj\Debug\Warehousing.Repository.dll
+D:\Porfolio\Warehousing\Warehousing.Repository\obj\Debug\Warehousing.Repository.pdb

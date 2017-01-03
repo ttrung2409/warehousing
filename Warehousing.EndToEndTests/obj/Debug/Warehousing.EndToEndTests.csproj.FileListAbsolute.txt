@@ -1,0 +1,11 @@
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.EndToEndTests\bin\Debug\Warehousing.EndToEndTests.dll
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.EndToEndTests\bin\Debug\Warehousing.EndToEndTests.pdb
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.EndToEndTests\obj\Debug\Warehousing.EndToEndTests.csprojResolveAssemblyReference.cache
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.EndToEndTests\obj\Debug\Warehousing.EndToEndTests.dll
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.EndToEndTests\obj\Debug\Warehousing.EndToEndTests.pdb
+D:\Porfolio\Warehousing\Warehousing.EndToEndTests\bin\Debug\Warehousing.EndToEndTests.dll
+D:\Porfolio\Warehousing\Warehousing.EndToEndTests\bin\Debug\Warehousing.EndToEndTests.pdb
+D:\Porfolio\Warehousing\Warehousing.EndToEndTests\obj\Debug\Warehousing.EndToEndTests.csprojResolveAssemblyReference.cache
+D:\Porfolio\Warehousing\Warehousing.EndToEndTests\obj\Debug\Warehousing.EndToEndTests.dll
+D:\Porfolio\Warehousing\Warehousing.EndToEndTests\obj\Debug\Warehousing.EndToEndTests.pdb
+D:\Porfolio\Warehousing\Warehousing.EndToEndTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll

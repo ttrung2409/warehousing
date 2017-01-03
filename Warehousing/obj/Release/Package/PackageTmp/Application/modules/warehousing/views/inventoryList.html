@@ -1,0 +1,31 @@
+﻿<div class="form-horizontal">
+    <div class="form-group row">        
+        <div class="col-md-4">                        
+            <div class="form-group">
+                <label class="control-label col-md-4">Product:</label>
+            <div class="col-md-8">
+                <input class="form-control" type="text" ng-model="selectedProduct" uib-typeahead="product as product.Name for product in getProductsForLookUp($viewValue, 10) | limitTo: 10"
+                    placeholder="Select a product to filter" typeahead-editable="false"/>            
+            </div>
+            </div>                        
+        </div>
+        <div class="col-md-4">
+            <div class="form-group">
+                <label class="control-label col-md-4">Warehouse:</label>
+            <div class="col-md-8">
+                <ui-select ng-model="selectedWarehouse.selected" theme="bootstrap" style="width: 100%">
+                    <ui-select-match placeholder="Select a warehouse to filter">{{$select.selected.Name}}</ui-select-match>
+                    <ui-select-choices repeat="warehouse in warehouses | filter: $select.search">{{warehouse.Name}}</ui-select-choices>                    
+                </ui-select>
+            </div>
+            </div>
+            
+        </div>
+        
+        <div class="col-md-2">
+            <button class="btn btn-primary" ng-click="filter()">Filter</button>
+        </div>
+    </div>
+</div>
+<div class="gridStyle" ui-grid="gridOptions" ui-grid-pagination style="margin-top: 15px">
+</div>

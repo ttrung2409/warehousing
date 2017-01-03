@@ -1,0 +1,13 @@
+﻿<div class="modal-header">
+    <div style="font-size: medium;">
+        <span class="glyphicon glyphicon-question-sign"></span>
+        <span class="modal-title">{{options.title}}</span>    
+    </div>    
+</div>
+<div class="modal-body">
+    <p>{{options.message}}</p>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="yes()">{{options.yesButtonCaption}}</button>
+    <button class="btn btn-warning" type="button" ng-click="no()">{{options.noButtonCaption}}</button>
+</div>

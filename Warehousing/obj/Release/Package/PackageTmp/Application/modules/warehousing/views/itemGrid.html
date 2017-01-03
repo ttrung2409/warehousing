@@ -1,0 +1,58 @@
+﻿<div class="grid-container">
+<div class="table-responsive item-grid">                                     
+    <div>
+        <table class="table" style="margin-bottom: 0px">
+            <thead>
+                <th ng-repeat="column in columns" style="width: {{column.width}}">{{column.displayName}}</th>                               
+            </thead>
+        </table>
+    </div>
+    <div class="item-grid-body">
+        <table class="table table-bordered table-hover">        
+        <tbody>
+            <tr ng-repeat="item in items">
+                <td ng-repeat="column in columns" tabindex="0" ng-focus="editCell($event, item, column)" class="{{column.type}}" id="cell{{item.index}}{{column.index}}" ng-keydown="onKeyDown($event, item, column)"
+                    style="width: {{column.width}}">                                                                                                                                
+                    <div ng-if="column.type=='number'">
+                        <span ng-if="!cells[item.index + '' + column.index].isEditable">{{item[column.field] | number: column.numberOfDecimals}}</span>        
+                        <input ng-if="cells[item.index + '' + column.index].isEditable" type="text" mask="number" number-of-decimals="{{column.numberOfDecimals}}" 
+                        ng-model="item[column.field]" class="form-control" ng-blur="cancelEdit(item, column)" ng-keydown="onKeyDown($event, item, column)"/>                                                                                
+                    </div>          
+                    <div ng-if="column.type=='lookup'">
+                        <span ng-if="!cells[item.index + '' + column.index].isEditable">{{item[column.field][column.displayMember]}}</span>                                                                                 
+                        <input ng-if="cells[item.index + '' + column.index].isEditable" type="text" ng-model="item[column.field]" uib-typeahead="lookupItem as lookupItem[column.displayMember] for lookupItem in column.onLookUp($viewValue, 10) | limitTo: 10"
+                            placeholder="{{column.placeholder}}" class="form-control" typeahead-editable="false" ng-blur="cancelEdit(item, column)" ng-keydown="onKeyDown($event, item, column)" typeahead-is-open="cells[item.index + '' + column.index].isPopupOpen"/>                            
+                    </div>              
+                    <div ng-if="column.type=='custom'">
+                        <item-grid-cell template="{{column.cellTemplate}}"></item-grid-cell>
+                    </div>
+                    <div ng-if="column.type=='text'">
+                        <span>{{item[column.field]}}</span>        
+                    </div>
+                </td>                                
+            </tr>            
+        </tbody>
+    </table>        
+    </div>    
+</div>
+<div ng-if="options.enablePagination" class="pager">
+    <ul>
+        <li ng-class="{'disabled': options.pagination.currentPage == 1}"><a href="javascript: void(0);" ng-click="goToPreviousPage()">Previous</a></li>
+        <li>
+            <span ng-show="!pageSelectionEnabled" ng-click="enablePageSelection()">{{options.pagination.currentPage}} / {{options.pagination.totalPages}}</span>            
+            <input id="pageSelection" type="text" ng-model="options.pagination.selectedPage" mask="number" class="form-control" style="width: 60px; display: inline-block" 
+                ng-blur="pageSelected()" ng-if="pageSelectionEnabled"/>
+        </li>
+        <li ng-class="{'disabled': options.pagination.currentPage == options.pagination.totalPages}"><a href="javascript: void(0);" ng-click="goToNextPage()">Next</a></li>        
+        <li>
+             <ui-select ng-model="selectedPageSize.selected" theme="bootstrap" style="width: 60px; display: inline-block">
+                    <ui-select-match>{{$select.selected}}</ui-select-match>
+                    <ui-select-choices repeat="size in options.pagination.pageSizes | filter: $select.search">                    
+                        {{size}}                 
+                    </ui-select-choices>
+                </ui-select>   
+            items per page
+        </li>
+    </ul>    
+</div>
+</div>

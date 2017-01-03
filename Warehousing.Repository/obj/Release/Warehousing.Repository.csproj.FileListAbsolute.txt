@@ -1,0 +1,12 @@
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Release\Warehousing.Repository.dll.config
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Release\Warehousing.Repository.dll
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Release\Warehousing.Repository.pdb
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Release\AutoMapper.dll
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Release\EntityFramework.dll
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Release\AutoMapper.xml
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Release\EntityFramework.xml
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\obj\Release\Warehousing.Repository.csprojResolveAssemblyReference.cache
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\obj\Release\Warehousing.Repository.dll
+C:\Users\THANH TRUNG\Desktop\Warehousing\Warehousing.Repository\obj\Release\Warehousing.Repository.pdb

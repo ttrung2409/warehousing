@@ -1,0 +1,92 @@
+﻿html, body {
+	height: 100%;
+}
+
+.body-content {
+	padding: 0 0 0 20px;			
+    height: calc(100% - 72px);
+}
+
+.main-view {
+	height: 100%;
+	padding-right: 15px;
+}
+
+.gridStyle {
+	margin-top: 30px;
+	width: 100%;
+	height: calc(100% - 66px) !important;
+}
+
+.form-inline {
+	margin-top: 10px;
+}
+
+.grid-action-cell {
+	cursor: pointer;
+	padding: 5px 0 0 10px;	
+}
+
+.ui-select-container {
+	display: inline-block;
+}
+
+.ui-select-container .form-control {
+	width: 100%;	
+}
+
+.error {
+	border: solid 1px #a94442;    
+}
+
+.number {
+	text-align: right;
+}
+
+.item-grid {
+	height: 100%;
+	overflow: hidden;
+}
+
+.item-grid th {
+	background-color: #E7E6E7;
+}
+
+.item-grid tr {
+	height: 30px;
+}
+
+.item-grid td span {
+	padding: 8px 0 0 8px;			
+}
+
+.item-grid td.number {	
+	text-align: right;	
+}
+
+.item-grid-body {	
+	overflow-y: auto;
+	border: solid 1px #E7E6E7;
+	border-top: none;
+	height: calc(100% - 38px);	
+}
+
+.add-stock-receipt {
+	height: 100%;
+}
+
+.add-stock-receipt .grid-container {
+	height: calc(100% - 280px)
+}
+
+.edit-cycle-count {
+	height: 100%;
+}
+
+.edit-cycle-count .grid-container {
+	height: calc(100% - 165px);
+}
+
+.navbar-fixed-bottom {
+	z-index: auto !important;
+}

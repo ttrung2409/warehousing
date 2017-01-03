@@ -1,0 +1,40 @@
+﻿<div class="modal-header">
+    <h3 class="modal-title">Add / Edit Item</h3>
+</div>
+<div class="modal-body">
+    <form id="form" class="form-horizontal" form-validate form-submit="onSubmit">        
+        <div class="form-group">
+            <label class="col-md-2 control-label">Number:*</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" ng-model="product.Number" validate="validator.number" ng-disabled="product.Id > 0"/>        
+            </div>
+        </div>                            
+        <div class="form-group">
+            <label class="col-md-2 control-label">Name:*</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" ng-model="product.Name" validate="validator.name"/>        
+            </div>                
+        </div>                    
+        <div class="form-group">
+            <label class="col-md-2 control-label">Category:*</label>            
+            <div class="col-md-10">                                
+                <ui-select ng-model="selectedCategory.selected" theme="bootstrap" style="width: 100%" select-validate="validator.category">
+                    <ui-select-match placeholder="Select a category">{{$select.selected.Name}}</ui-select-match>
+                    <ui-select-choices repeat="category in categories | filter: $select.search">                    
+                        {{category.Name}}                 
+                    </ui-select-choices>
+                </ui-select>                           
+            </div> 
+        </div>                    
+        <div class="form-group">
+            <label class="col-md-2 control-label">Unit Price:</label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" ng-model="product.UnitPrice" mask="number" number-of-decimals="2"/>        
+            </div>                
+        </div>            
+    </form>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="ok()">Save</button>
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>
