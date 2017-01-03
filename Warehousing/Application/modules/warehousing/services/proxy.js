@@ -1,6 +1,6 @@
 ﻿define([], function () {
     angular.module('warehousing').service('$proxy', function ($http, $q) {
-        var host = 'http://localhost:51313/';
+        var host = 'http://localhost/Warehousing/';
         function executeRequest(apiUrl, method, params, data) {
             var request = {
                 url: host + apiUrl,
