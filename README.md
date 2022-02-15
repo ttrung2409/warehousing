@@ -6,7 +6,7 @@ An application simulates some of the warehouse management activities such as pro
 
 It is built as an single-page web app using Angular on client side, and Web API, Entity Framework on server side.
 
-A relational database (MSSQL) is used for data storage, EF for simple queries, commands and Stored Procedures for complicated T-SQL are ways of communication between the app and the data store.
+A relational database (MSSQL) is used for data storage. EF is used for simple queries, commands. Stored Procedures are used for complicated T-SQL.
 
 How to run:
 
